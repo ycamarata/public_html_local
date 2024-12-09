@@ -1,0 +1,23 @@
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+td{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid black;
+    justify-content: center;
+    margin: 2px;
+}
+
+tr{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid black;
+    margin: 2px;
+    justify-content: center;
+}
